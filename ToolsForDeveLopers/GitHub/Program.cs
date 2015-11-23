@@ -11,9 +11,7 @@ namespace GitHub
             int currentRow = 0;
             int currentCol = 0;
             FillMapDots(map);
-             
-             
-
+              
             while (true)
             {
                 PrintMap(map);
