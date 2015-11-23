@@ -6,8 +6,7 @@ namespace Log4NetTesting
     {
         static void Main(string[] args)
         {
-             
-            
+              
         }
     }
 

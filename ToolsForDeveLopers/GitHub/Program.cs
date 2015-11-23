@@ -7,7 +7,7 @@ namespace GitHub
         static void Main(string[] args)
         {
             char[,] map = new char[5, 5];
-            FillMapWithDots(map);
+             
             int currentRow = 0;
             int currentCol = 0;
             while (true)
@@ -86,15 +86,6 @@ namespace GitHub
         }
 
 
-        private static void FillMapWithDots(char[,] map)
-        {
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    map[i, j] = '.';
-                }
-            }
-        }
+        
     }
 }
