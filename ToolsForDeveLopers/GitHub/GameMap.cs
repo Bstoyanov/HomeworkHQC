@@ -12,7 +12,7 @@ namespace GitHub
         private int rowsNumber;
         private int colsNumber;
 
-        public GameMap(int rows,int cols,char ch)
+        public GameMap(int rows,int cols)
         {
             this.map = new char[rows,cols];
             this.Initialize(this.map,rows,cols); 
