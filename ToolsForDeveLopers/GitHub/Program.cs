@@ -6,10 +6,11 @@ namespace GitHub
     {
         static void Main()
         {
-            GameMap map = new GameMap(5,5);
+            char [,] map = new char[5,5];
              
             int currentRow = 0;
             int currentCol = 0;
+            FillMapDots(map);
 
             while (true)
             {
@@ -46,6 +47,17 @@ namespace GitHub
                 }
             }
 
+        }
+
+        private static void FillMapDots(char[,] map)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    map[i, j] = '.';
+                }
+            }
         }
 
         private static void PrintMap(char[,] map)
