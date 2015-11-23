@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToolsForDevelopers", "Tools
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubTests", "GitHub\GitHubTests.csproj", "{C46FAD85-30D1-415E-AFE4-90D79E4DD181}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetTesting", "Log4NetTesting\Log4NetTesting.csproj", "{713FE6B5-AE1A-43F1-91F7-CD70638FA227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{3007C6E0-3381-4FC4-9AA7-A5ABD313BD1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +21,16 @@ Global
 		{C46FAD85-30D1-415E-AFE4-90D79E4DD181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C46FAD85-30D1-415E-AFE4-90D79E4DD181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C46FAD85-30D1-415E-AFE4-90D79E4DD181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713FE6B5-AE1A-43F1-91F7-CD70638FA227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713FE6B5-AE1A-43F1-91F7-CD70638FA227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713FE6B5-AE1A-43F1-91F7-CD70638FA227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713FE6B5-AE1A-43F1-91F7-CD70638FA227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C46FAD85-30D1-415E-AFE4-90D79E4DD181} = {FB44B676-ED7E-46CA-8099-153C5E2C515D}
+		{713FE6B5-AE1A-43F1-91F7-CD70638FA227} = {FB44B676-ED7E-46CA-8099-153C5E2C515D}
 	EndGlobalSection
 EndGlobal
