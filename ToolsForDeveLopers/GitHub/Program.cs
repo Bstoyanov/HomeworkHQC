@@ -6,8 +6,8 @@ namespace GitHub
     {
         static void Main()
         {
-            char [,] map = new char[5,5];
-             
+            char[,] map = new char[5, 5];
+
             int currentRow = 0;
             int currentCol = 0;
             FillMapDots(map);
@@ -98,7 +98,5 @@ namespace GitHub
             map[row, col + 1] = '.';
         }
 
-
-        
     }
 }
