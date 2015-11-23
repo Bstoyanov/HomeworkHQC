@@ -11,9 +11,8 @@ namespace GitHub
             int currentRow = 0;
             int currentCol = 0;
             FillMapDots(map);
-            var newArray = new int[3];
-            newArray[2] = 32;
-            newArray[1] = 11;
+             
+             
 
             while (true)
             {
